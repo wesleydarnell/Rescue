@@ -1,0 +1,33 @@
+{
+  "name": "rescue",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "TresJS Vue application",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ",
+    "lint:fix": "eslint  --fix"
+  },
+  "dependencies": {
+    "@tresjs/cientos": "^5.8.1",
+    "@tresjs/core": "^5.8.3",
+    "@tresjs/leches": "^1.2.1",
+    "@tresjs/post-processing": "^3.7.4",
+    "three": "^0.185.1",
+    "three-stdlib": "^2.36.1",
+    "vue": "^3.5.40"
+  },
+  "devDependencies": {
+    "@tresjs/eslint-config": "^1.1.0",
+    "@types/three": "^0.184.1",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "eslint": "^9.16.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.1.5",
+    "vite-plugin-glsl": "^1.6.1",
+    "vue-tsc": "^3.3.8"
+  }
+}

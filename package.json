@@ -16,12 +16,18 @@
     "@tresjs/core": "^5.8.3",
     "@tresjs/leches": "^1.2.1",
     "@tresjs/post-processing": "^3.7.4",
+    "ejs": "^6.0.1",
+    "pinia": "^4.0.2",
     "three": "^0.185.1",
     "three-stdlib": "^2.36.1",
-    "vue": "^3.5.40"
+    "vite-plugin-ejs": "^2.0.0",
+    "vue": "^3.5.40",
+    "vue-router": "^5.2.0"
   },
   "devDependencies": {
     "@tresjs/eslint-config": "^1.1.0",
+    "@types/ejs": "^3.1.5",
+    "@types/node": "^26.1.1",
     "@types/three": "^0.184.1",
     "@vitejs/plugin-vue": "^6.0.8",
     "eslint": "^9.16.0",
